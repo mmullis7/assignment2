@@ -1,0 +1,52 @@
+a) git push
+Username for 'https://github.com': mmullis7			
+Password for 'https://mmullis7@github.com':
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 732 bytes | 732.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/mmullis7/assignment2.git
+   f4975e5..1f0f1ed  master -> master
+
+b) 
+
+
+c) Wed Sep 25 18:13:30 2019 -0400			  
+git log .gitignore  
+
+d) As noted in the recitation slides, one possible reason why		
+branches are used in a Git repository is to break up development 
+tasks among the team members. An example of this would be having 
+a new branch for a new feature. Another reason why branches are used 
+is that they are extremely useful when developers are working on 
+the same project, in parallel. 
+										
+e) The command git log shows the commit logs, and provides information on the commits. 
+For example, for each commit, it lists the commit ID, author, date, and message. The command git status
+displays differences and the status of the working tree. This command shows the paths and files that are not tracked, 
+or that are staged/unstaged for commits. Git status will also display if the local
+branch is up to date.
+
+f) git log -- Vehicle.h 
+
+g) git log --grep="file"
+
+h)	I) In object oriented programming, inheritance is the idea of deriving classes from another class.
+This allows the existence of a class that uses an existing class, or parent class, and builds upon
+that parent class. The child class would inherit properties from the parent class.
+	II) Polymorphism occurs when there is inheritance already occuring. For example, a Shape class, with 
+a child class called Circle, could have the following objects because of polymorphism:
+	Circle c1 = new Circle();   
+	Shape c2 = new Circle();
+	
+
+	III)
+
+
+
+
+Git Commands, workflow, and resources.pdf
+i)
