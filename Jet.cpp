@@ -30,7 +30,7 @@ double Jet::mileageEstimate(double time)
 {
 	int r;
 	r = rand() % (100 - 40) + 40;	//random number between 40 and 100(SOURCE: https://www.dreamincode.net/forums/topic/65642-random-number-between-2-ints/)
-	double mileage = time * rand; 
+	double mileage = time * r; 
 	if (numberOfEngines > 2 && fuelType == "Rocket")
 		mileage += (mileage * 0.55 * numberOfEngines);
 	return mileage;
