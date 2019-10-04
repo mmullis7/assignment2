@@ -11,8 +11,8 @@ remote: Resolving deltas: 100% (2/2), completed with 1 local object.
 To https://github.com/mmullis7/assignment2.git
    f4975e5..1f0f1ed  master -> master
 
-b) 
-
+b)  git rev-list --count master
+10 
 
 c) Wed Sep 25 18:13:30 2019 -0400			  
 git log .gitignore  
@@ -34,19 +34,30 @@ f) git log -- Vehicle.h
 
 g) git log --grep="file"
 
-h)	I) In object oriented programming, inheritance is the idea of deriving classes from another class.
-This allows the existence of a class that uses an existing class, or parent class, and builds upon
+h)	I) In object oriented programming, inheritance is the idea of deriving classes from other classes.
+This allows the use of a class that uses an existing class, or parent class, and builds upon
 that parent class. The child class would inherit properties from the parent class.
 	II) Polymorphism occurs when there is inheritance already occuring. For example, a Shape class, with 
 a child class called Circle, could have the following objects because of polymorphism:
 	Circle c1 = new Circle();   
 	Shape c2 = new Circle();
-	
-
-	III)
-
-
-
+	Polymorphism is also evident in function overriding, using the keyword "virtual". A child class can override a 
+function from the base class.
+Therefore, when a function is called, it will depend on the type of the object who called the function.
+	III) Encapsulation is the idea of grouping together functions and data that work on a feature, keeping implementation separate
+from the interface. In C++, this is done by using classes, and making class member functions and data either public, 
+private, or protected. Making the member data private is another technique of encapsulation. 
 
 Git Commands, workflow, and resources.pdf
-i)
+i) In the "Dictator and Lieutenants” workflow, different "Lieutenants" are in charge of certain parts,
+with each Lieutenant having a "Dictator". All the members pull from one repository, where the Dictator is 
+the only one allowed to push. 
+In the “Integration manager” workflow, each developer pushes to their own repository and pulls from the central repository.
+The integration manager then handles conflicts, with the developers pushing and pulling from own repositories.  
+The main difference between the two is that the first workflow has a more distributed workflow, with repositories only some 
+can push to, and the second workflow each developer pushes to their own individual repositories. 
+
+j) A team of 100 developers would benefit from the “Dictator and Lieutenants” workflow because in "Centralized" there is one 
+shared repository. Each developer has to pull and then resolve changes before pushing. In “Dictator and Lieutenants”, things are
+more distributed, making this workflow extremely beneficial for large teams. There is one repository that only the 
+Dictator can push to, where the Lieutenants have already merged the developer's branches and the Dictator has merged the Lieutenants. 
