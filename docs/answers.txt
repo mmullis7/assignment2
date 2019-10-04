@@ -61,3 +61,16 @@ j) A team of 100 developers would benefit from the “Dictator and Lieutenants�
 shared repository. Each developer has to pull and then resolve changes before pushing. In “Dictator and Lieutenants”, things are
 more distributed, making this workflow extremely beneficial for large teams. There is one repository that only the 
 Dictator can push to, where the Lieutenants have already merged the developer's branches and the Dictator has merged the Lieutenants. 
+
+
+5. OOP Principles
+The Driving simulator prototype is using both polymorphism and encapsulation. 
+As encapsulation is defined above as the process of grouping features into classes in C++,
+this prototype uses encapsultaion. Each class is defined and implemented, such as Jet, Skateboard, and Train,
+and all use encapsulation. Each of these are classes, separating the implementation, from the user interface.
+Functions and data are listed as public or private, with the data being private, showing this prototype uses
+encapsulation.
+This prototype is also using polymorphism. An example of polymorphism occurs when there is inheritance also 
+occuring. Vehicle is a base class, with Skateboard as its child class, as an example. The virtual function
+mileageEstimate is an example of polymorphism. Skateboard is overriding the Vehicle mileageEstimate function, 
+so when an object of type Skateboard invokes this function, the Skateboard function is the one that will be used.
